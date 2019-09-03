@@ -1,0 +1,7 @@
+---
+ - hosts: all
+   tasks:
+    - name: mysql
+      yum:
+       name: mysql
+       state: present
